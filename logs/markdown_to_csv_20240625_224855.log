@@ -1,0 +1,25 @@
+2024-06-25 22:48:55,319 - INFO - Log file created at: logs\markdown_to_csv_20240625_224855.log
+2024-06-25 22:48:55,320 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-06-25 22:48:55,321 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 6_4 【案件のご相談】ストラテジーテック・コンサルティング佐藤.txt
+2024-06-25 22:48:55,323 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 6_4 【案件のご相談】ストラテジーテック・コンサルティング佐藤.txt: No table content found in the file
+2024-06-25 22:48:55,324 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 6_5【急募案件のご相談】ストラテジーテックコンサルティング高瀬.txt
+2024-06-25 22:48:55,325 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 6_5【急募案件のご相談】ストラテジーテックコンサルティング高瀬.txt: No table content found in the file
+2024-06-25 22:48:55,325 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 【ご提案依頼】 DTC要員募集リスト（SAP）.txt
+2024-06-25 22:48:55,326 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 【ご提案依頼】 DTC要員募集リスト（SAP）.txt: No table content found in the file
+2024-06-25 22:48:55,326 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-06-25 22:48:55,364 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240613104557_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-06-25 22:48:55,370 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240613104557_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-06-25 22:48:55,370 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_  【ご提案依頼】 DTC要員募集リスト（SAP）.txt
+2024-06-25 22:48:55,371 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_  【ご提案依頼】 DTC要員募集リスト（SAP）.txt: No table content found in the file
+2024-06-25 22:48:55,372 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_ 【ARK】貴社案件一覧の展開のお願い.txt
+2024-06-25 22:48:55,372 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_ 【ARK】貴社案件一覧の展開のお願い.txt: No table content found in the file
+2024-06-25 22:48:55,373 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-06-25 22:48:55,373 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_ 【マンパワーグループ】募集案件のご案内_案件情報.txt: No table content found in the file
+2024-06-25 22:48:55,374 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】【SAP】案件情報_20240426.pdf.txt
+2024-06-25 22:48:55,374 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】【SAP】案件情報_20240426.pdf.txt: No table content found in the file
+2024-06-25 22:48:55,374 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】【SAP外】案件情報_20240426.pdf.txt
+2024-06-25 22:48:55,375 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】【SAP外】案件情報_20240426.pdf.txt: No table content found in the file
+2024-06-25 22:48:55,375 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】要員募集一覧_20240524.xlsx.txt
+2024-06-25 22:48:55,416 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240613104557_【RPA転送】要員募集一覧_20240524.xlsx.csv
+2024-06-25 22:48:55,429 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240613104557_【RPA転送】要員募集一覧_20240524.xlsx.csv
+2024-06-25 22:48:55,429 - INFO - Processing complete

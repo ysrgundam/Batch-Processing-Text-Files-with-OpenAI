@@ -1,0 +1,150 @@
+2024-06-25 23:00:00,699 - INFO - Log file created at: logs\markdown_to_csv_20240625_230000.log
+2024-06-25 23:00:00,701 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-06-25 23:00:00,702 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 6_4 【案件のご相談】ストラテジーテック・コンサルティング佐藤.txt
+2024-06-25 23:00:00,703 - DEBUG - File content (first 500 chars): | 提供元案件番号 | 委託元 | 業界 | PJフェーズ | モジュール | SAP案件 | 単価 | 募集人数 | 開始日 | 終了日 | 勤務地 | 案件概要 | 必須要件 | 歓迎要件 | 言語力 | メインポジション |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ① | 複合機メーカー | 製造業 | UAT実行 | - | × | 要相談 | 1 | 7月~ | - | 横浜駅週1~3回+リモート | UAT実行支援(テストリーダー) | UAT実行計画や総合テストの俯瞰、ITより業務の現場目線での資料作成 | エンタープライズ/営業の業務知識、システム/SI知識、営業/サービスの業務/経営コンサル経験 | - | テストリーダー |
+| ② | 複合機メーカー | 製造業 | UAT実行 | - | × | 要相談 | 1 | 6月~ | - | 横浜駅週1~3回+リモート | UAT実行支援(環境準備、関連システム
+2024-06-25 23:00:00,711 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 6_4 【案件のご相談】ストラテジーテック・コンサルティング佐藤.txt: No table content found in the file
+Traceback (most recent call last):
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 94, in process_file
+    table_content = preprocess_table_content(email_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 47, in preprocess_table_content
+    raise ValueError("No table content found in the file")
+ValueError: No table content found in the file
+
+2024-06-25 23:00:00,712 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 6_5【急募案件のご相談】ストラテジーテックコンサルティング高瀬.txt
+2024-06-25 23:00:00,713 - DEBUG - File content (first 500 chars): | 提供元案件番号 | 委託元 | 業界 | PJフェーズ | モジュール | SAP案件 | 単価 | 募集人数 | 開始日 | 終了日 | 勤務地 | 案件概要 | 必須要件 | 歓迎要件 | 言語力 | メインポジション |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ① | 銀行 | 金融 | 要件定義フェーズ | - | × | 140万円 | - | 6月or7月~ | - | リモート+品川(週3目安) | 銀行営業改革のためのCRM導入に関するあるべき姿の構想策定支援 | ・銀行の営業改革・営業業務知見者<br>・CRM導入における構想策定～要件定義経験<br>・上記に伴うユーザー折衝経験 | - | - | - |
+| ② | エネルギー企業 | エネルギー | 計画フェーズ | - | × | 150万円前後 | - | 6月~ | - | リモート+新橋(週3程度※初月は週4~5) | 生成AI導入に関する業務
+2024-06-25 23:00:00,715 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 6_5【急募案件のご相談】ストラテジーテックコンサルティング高瀬.txt: No table content found in the file
+Traceback (most recent call last):
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 94, in process_file
+    table_content = preprocess_table_content(email_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 47, in preprocess_table_content
+    raise ValueError("No table content found in the file")
+ValueError: No table content found in the file
+
+2024-06-25 23:00:00,716 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 【ご提案依頼】 DTC要員募集リスト（SAP）.txt
+2024-06-25 23:00:00,717 - DEBUG - File content (first 500 chars): | 提供元案件番号 | 委託元 | 業界 | PJフェーズ | モジュール | SAP案件 | 単価 | 募集人数 | 開始日 | 終了日 | 勤務地 | 案件概要 | 必須要件 | 歓迎要件 | 言語力 | メインポジション |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| AB-263 | Accenture | 電力 | 設計フェーズ | CO | 〇 | 100万円程度 | 1 | 即日 | 2024/6/30 | 江東区/木場 週3回出社+リモート | SAP S4HANA導入（会計のみ） | FIモジュール標準機能の基本設計、カスタマイズ定義 資金管理もしくは伝票決算業務について、GL|AP|ARを横断的にカスタマイズする。 | SAP S4HANA FIモジュールの標準機能理解 基本設計書作成経験 | 日本語 | アプリ設計 |
+| AF-269 | Accenture | 大手メーカー | - | Dinamics36
+2024-06-25 23:00:00,718 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 【ご提案依頼】 DTC要員募集リスト（SAP）.txt: No table content found in the file
+Traceback (most recent call last):
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 94, in process_file
+    table_content = preprocess_table_content(email_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 47, in preprocess_table_content
+    raise ValueError("No table content found in the file")
+ValueError: No table content found in the file
+
+2024-06-25 23:00:00,719 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-06-25 23:00:00,721 - DEBUG - File content (first 500 chars): |提供元案件番号|委託元|業界|PJフェーズ|モジュール|SAP案件|単価|募集人数|開始日|終了日|勤務地|案件概要|必須要件|歓迎要件|言語力|メインポジション|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|1930605-KS-1|マンパワーグループ|製造業|要件定義|SCM|×|160H~180H程度|1～2名|ASAP|2026年9月30日|-|mcframe導入(SCM領域)におけるTo-Be業務とパッケージのFIT/GAP作業|・販売管理又は生産管理業務知識<br>・mcframe7導入プロジェクトにおける要件定義(上流工程)の経験<br>・セッションスピーカの経験|・組立加工業|日本語|要件定義|
+|1930605-KS-2|マンパワーグループ|金融|PoC|DB2|×|160H~180H程度|1名|ASAP|2025年10月30日|東京(高田馬場)<br>※リモート可|IBM社製品(CDS)を使ったデータレプリケーションのPoC案件|・DB2技術者<br>(お客様 DB2エキスパ
+2024-06-25 23:00:00,722 - DEBUG - Preprocessed table content (first 500 chars): |提供元案件番号|委託元|業界|PJフェーズ|モジュール|SAP案件|単価|募集人数|開始日|終了日|勤務地|案件概要|必須要件|歓迎要件|言語力|メインポジション|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|1930605-KS-1|マンパワーグループ|製造業|要件定義|SCM|×|160H~180H程度|1～2名|ASAP|2026年9月30日|-|mcframe導入(SCM領域)におけるTo-Be業務とパッケージのFIT/GAP作業|・販売管理又は生産管理業務知識<br>・mcframe7導入プロジェクトにおける要件定義(上流工程)の経験<br>・セッションスピーカの経験|・組立加工業|日本語|要件定義|
+|1930605-KS-2|マンパワーグループ|金融|PoC|DB2|×|160H~180H程度|1名|ASAP|2025年10月30日|東京(高田馬場)<br>※リモート可|IBM社製品(CDS)を使ったデータレプリケーションのPoC案件|・DB2技術者<br>(お客様 DB2エキスパ
+2024-06-25 23:00:00,769 - DEBUG - DataFrame head:
+   Unnamed: 0       提供元案件番号        委託元   業界 PJフェーズ モジュール SAP案件           単価  募集人数   開始日          終了日                 勤務地                                         案件概要                                                                    必須要件    歓迎要件  言語力   メインポジション  Unnamed: 17
+0         NaN           ---        ---  ---    ---   ---   ---          ---   ---   ---          ---                 ---                                          ---                                                                     ---     ---  ---        ---          NaN
+1         NaN  1930605-KS-1  マンパワーグループ  製造業   要件定義   SCM     ×  160H~180H程度  1～2名  ASAP   2026年9月30日                   -  mcframe導入(SCM領域)におけるTo-Be業務とパッケージのFIT/GAP作業  ・販売管理又は生産管理業務知識<br>・mcframe7導入プロジェクトにおける要件定義(上流工程)の経験<br>・セッションスピーカの経験  ・組立加工業  日本語       要件定義          NaN
+2         NaN  1930605-KS-2  マンパワーグループ   金融    PoC   DB2     ×  160H~180H程度    1名  ASAP  2025年10月30日  東京(高田馬場)<br>※リモート可             IBM社製品(CDS)を使ったデータレプリケーションのPoC案件                    ・DB2技術者<br>(お客様 DB2エキスパートとともに、PoC環境構築と機能検証を実施して頂ける方)   empty  日本語  DB2エキスパート          NaN
+2024-06-25 23:00:00,777 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240613104557_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-06-25 23:00:00,781 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240613104557_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-06-25 23:00:00,782 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_  【ご提案依頼】 DTC要員募集リスト（SAP）.txt
+2024-06-25 23:00:00,782 - DEBUG - File content (first 500 chars): 提供元案件番号|委託元|業界|PJフェーズ|モジュール|SAP案件|単価|募集人数|開始日|終了日|勤務地|案件概要|必須要件|歓迎要件|言語力|メインポジション
+:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
+AB-263|Accenture|電力|設計フェーズ|CO|〇|100万円程度|1|即日|2024/6/30|江東区/木場 週3回出社+リモート|SAP S4HANA導入（会計のみ）|FIモジュール標準機能の基本設計、カスタマイズ定義 資金管理もしくは伝票決算業務について、GL、AP、ARを横断的にカスタマイズする。|SAP S4HANA FIモジュールの標準機能理解 基本設計書作成経験|電力事業案件の経験（会計領域が望ましい）|日本語|アプリ設計
+AF-269|Accenture|大手メーカー| |Dinamics365|×|100万円程度|1|要確認|要確認|リモート(今後汐留・赤坂への出社可能性)|Dinamics365の導入（要件定義リリース）障害対応、テスト後エラー修正、改修業務、CR対応
+2024-06-25 23:00:00,784 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_  【ご提案依頼】 DTC要員募集リスト（SAP）.txt: No table content found in the file
+Traceback (most recent call last):
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 94, in process_file
+    table_content = preprocess_table_content(email_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 47, in preprocess_table_content
+    raise ValueError("No table content found in the file")
+ValueError: No table content found in the file
+
+2024-06-25 23:00:00,785 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_ 【ARK】貴社案件一覧の展開のお願い.txt
+2024-06-25 23:00:00,785 - DEBUG - File content (first 500 chars): 提供元案件番号|委託元|業界|PJフェーズ|モジュール|SAP案件|単価|募集人数|開始日|終了日|勤務地|案件概要|必須要件|歓迎要件|言語力|メインポジション
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
+AB-263|Accenture|電力|設計フェーズ|CO|〇|100万円程度|1|即日|2024/6/30|江東区/木場 週3回出社+リモート|SAP S4HANA導入（会計のみ）|"FIモジュール標準機能の基本設計、カスタマイズ定義 資金管理もしくは伝票決算業務について、GL|AP|ARを横断的にカスタマイズする。"|SAP S4HANA FIモジュールの標準機能理解 基本設計書作成経験|日本語|アプリ設計
+AF-269|Accenture|大手メーカー| |Dinamics365|×|100万円程度|1|要確認|要確認|リモート(今後汐留・赤坂への出社可能性)|Dinamics365の導入（要件定義リリース）障害対応、テスト後エラー修正、改修業務、CR対応|要件定義からはじめるケースもあり。|
+2024-06-25 23:00:00,787 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_ 【ARK】貴社案件一覧の展開のお願い.txt: No table content found in the file
+Traceback (most recent call last):
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 94, in process_file
+    table_content = preprocess_table_content(email_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 47, in preprocess_table_content
+    raise ValueError("No table content found in the file")
+ValueError: No table content found in the file
+
+2024-06-25 23:00:00,788 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-06-25 23:00:00,789 - DEBUG - File content (first 500 chars): 提供元案件番号|委託元|業界|PJフェーズ|モジュール|SAP案件|単価|募集人数|開始日|終了日|勤務地|案件概要|必須要件|歓迎要件|言語力|メインポジション
+-- |-- |-- |-- |-- |-- |-- |-- |-- |-- |-- |-- |-- |-- |-- |-- 
+AB-262|Accenture|電力|移行フェーズ|FI|〇|100万円程度|1|即日|2024/6/30|江東区/木場 週3回出社+リモート|SAP S4HANA導入（会計のみ）|SAP会計領域におけるデータ移行経験 SAPマスタ構築、改修経験|電力事業案件の経験（会計領域が望ましい）|日本語|データ移行
+AB-263|Accenture|電力|設計フェーズ|FI|〇|100万円程度|1|即日|2024/6/30|江東区/木場 週3回出社+リモート|SAP S4HANA導入（会計のみ）|SAP S4HANA FIモジュールの標準機能理解 基本設計書作成経験|電力事業案件の経験（会計領域が望ましい）|日本語|アプリ設計
+AF-269|Accenture|大手メーカー| |Dynamics 365|
+2024-06-25 23:00:00,790 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】RE_ 【マンパワーグループ】募集案件のご案内_案件情報.txt: No table content found in the file
+Traceback (most recent call last):
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 94, in process_file
+    table_content = preprocess_table_content(email_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 47, in preprocess_table_content
+    raise ValueError("No table content found in the file")
+ValueError: No table content found in the file
+
+2024-06-25 23:00:00,791 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】【SAP】案件情報_20240426.pdf.txt
+2024-06-25 23:00:00,791 - DEBUG - File content (first 500 chars): 提供元案件番号|委託元|業界|PJフェーズ|モジュール|SAP案件|単価|募集人数|開始日|終了日|勤務地|案件概要|必須要件|歓迎要件|言語力|メインポジション
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+AF-251|TSC|家庭品/化粧品|コンサルタントフェーズ|CO|〇|要確認|1-2|即日|要確認|"TSC(カチド キビル); 在宅勤務; プロジェクトによりオンサイトの場合もあり"|CO領域の各プロジェクトへの技術支援|CO（原価周り：CO-PC）領域における標準機能、カスタマイズの理解（特に品目元帳） ABAP開発経験|CO系SAP Certification PSモジュールのご経験|日本語|要確認
+AE-235|Accenture|大手エネルギー業界|運用保守フェーズ|QM|〇|要確認|1|即日|1-2か月契約|リモートワーク/在宅勤務|QM運用保守フェーズにおける、QM成績表関連のチェックやCR対応|QMモジュールの経験・知見 
+2024-06-25 23:00:00,792 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】【SAP】案件情報_20240426.pdf.txt: No table content found in the file
+Traceback (most recent call last):
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 94, in process_file
+    table_content = preprocess_table_content(email_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 47, in preprocess_table_content
+    raise ValueError("No table content found in the file")
+ValueError: No table content found in the file
+
+2024-06-25 23:00:00,793 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】【SAP外】案件情報_20240426.pdf.txt
+2024-06-25 23:00:00,794 - DEBUG - File content (first 500 chars): 提供元案件番号|委託元|業界|PJフェーズ|モジュール|SAP案件|単価|募集人数|開始日|終了日|勤務地|案件概要|必須要件|歓迎要件|言語力|メインポジション
+:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--
+ACN ID 案件|Accenture|半導体|実装|FI|〇|80〜100万円程度|1|即日(契約手続き完了次第)|要確認|8割は府中オフィス出社、週1リモート|Murexのバリューアットリスク(VaR)モジュール導入におけるテスト対応がメイン。状況により上流工程の支援等も行う可能性あり|・金融系SI案件の複数の経験(要件定義~運用保守)の経験 ※特に実装やテストの経験・日本語レベル|・Murexシステムの対応経験・金融分野で、デリバティブや債権領域などの知見・英語読み書き|日本語、英語|Senior
+BB-21|大手メーカー|エンタメ|運用|なし|×|68万円|1|即日|要確認|週3回浦安市出社|大規模アプリのリリースなどがある場合の保守案件として、AWSサーバーの構築やアーキテクチャの検討を行
+2024-06-25 23:00:00,796 - ERROR - Error processing file D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】【SAP外】案件情報_20240426.pdf.txt: No table content found in the file
+Traceback (most recent call last):
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 94, in process_file
+    table_content = preprocess_table_content(email_content)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 47, in preprocess_table_content
+    raise ValueError("No table content found in the file")
+ValueError: No table content found in the file
+
+2024-06-25 23:00:00,797 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240613104557_【RPA転送】要員募集一覧_20240524.xlsx.txt
+2024-06-25 23:00:00,797 - DEBUG - File content (first 500 chars): |提供元案件番号|委託元|業界|PJフェーズ|モジュール|SAP案件|単価|募集人数|開始日|終了日|勤務地|案件概要|必須要件|歓迎要件|言語力|メインポジション|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|BPC-00053|医療・ヘルスケア|Designer（コンテンツ作成における画像イメージ（図・グラフ・表など）の作成、医療従事者向けのコンテンツ作成における、効率化・高度化に向けたGlobalプロセスの構築|ASAP|2024/10/31|リモート（必要に応じて兵庫県神戸市へ出張可能性あり)|・Adobe Illustoratorなど、画像ファイルの作成・編集<br>・英語<br>・製薬バックグラウンド（製薬企業での経験、医学系の学歴、ヘルスケア企業でのプロジェクト経験（マーケティング領域）等)|読み書き|100|1|
+|RR-00034589|食品|SAP SCM|生産メンバとしてアプリケーション実装支援（設計・開発フェーズ)<br>・受入、内部結合テスト、外部結合テスト、統合テスト等
+2024-06-25 23:00:00,798 - DEBUG - Preprocessed table content (first 500 chars): |提供元案件番号|委託元|業界|PJフェーズ|モジュール|SAP案件|単価|募集人数|開始日|終了日|勤務地|案件概要|必須要件|歓迎要件|言語力|メインポジション|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|BPC-00053|医療・ヘルスケア|Designer（コンテンツ作成における画像イメージ（図・グラフ・表など）の作成、医療従事者向けのコンテンツ作成における、効率化・高度化に向けたGlobalプロセスの構築|ASAP|2024/10/31|リモート（必要に応じて兵庫県神戸市へ出張可能性あり)|・Adobe Illustoratorなど、画像ファイルの作成・編集<br>・英語<br>・製薬バックグラウンド（製薬企業での経験、医学系の学歴、ヘルスケア企業でのプロジェクト経験（マーケティング領域）等)|読み書き|100|1|
+|RR-00034589|食品|SAP SCM|生産メンバとしてアプリケーション実装支援（設計・開発フェーズ)<br>・受入、内部結合テスト、外部結合テスト、統合テスト等
+2024-06-25 23:00:00,839 - DEBUG - DataFrame head:
+   Unnamed: 0      提供元案件番号       委託元                                                                                     業界                                                                     PJフェーズ       モジュール                       SAP案件                                                                                                       単価                                       募集人数  開始日  終了日  勤務地 案件概要 必須要件 歓迎要件  言語力 メインポジション  Unnamed: 17
+0         NaN          ---       ---                                                                                    ---                                                                        ---         ---                         ---                                                                                                      ---                                        ---  ---  ---  ---  ---  ---  ---  ---      ---          NaN
+1         NaN    BPC-00053  医療・ヘルスケア  Designer（コンテンツ作成における画像イメージ（図・グラフ・表など）の作成、医療従事者向けのコンテンツ作成における、効率化・高度化に向けたGlobalプロセスの構築                                                                       ASAP  2024/10/31  リモート（必要に応じて兵庫県神戸市へ出張可能性あり)  ・Adobe Illustoratorなど、画像ファイルの作成・編集<br>・英語<br>・製薬バックグラウンド（製薬企業での経験、医学系の学歴、ヘルスケア企業でのプロジェクト経験（マーケティング領域）等)                                       読み書き  100    1  NaN  NaN  NaN  NaN  NaN      NaN          NaN
+2         NaN  RR-00034589        食品                                                                                SAP SCM  生産メンバとしてアプリケーション実装支援（設計・開発フェーズ)<br>・受入、内部結合テスト、外部結合テスト、統合テスト等のテスト工程を中心に支援        ASAP                  2025/08/31                                            リモートワークが基本。<br>内部Mtgで東京都千代田区、クライアントMtgで愛知県名古屋市、半田市への出張の可能性あり。          S/4導入プロジェクトにおける生産領域における基本設計スキル/経験   不要  100    1  NaN  NaN  NaN  NaN      NaN          NaN
+3         NaN  RR-00035895      電機機器                                                                         ERP(Other) SCM                                    設計開発チームのメンバー<br>IBPのCIDSインターフェースの設計開発受入        ASAP                  2025/12/31                                                                                             愛知県名古屋市・リモート  ①SCM領域のIFの基本設計・開発受入のスキル<br>②外部結合テストの実施スキル   不要  100    1  NaN  NaN  NaN  NaN      NaN          NaN
+4         NaN  RR-00036051        食品                                                                                 IT PMO                                                                  移行チームメンバー        ASAP                  2025/08/30                                  東京都千代田区でのワークが基本。<br>3月からはプロジェクトルームでの作業、クライアントMtgで愛知県名古屋市、半田市への出張の可能性あり。                        SAPの移行領域経験、領域リード経験者   不要  100    1  NaN  NaN  NaN  NaN      NaN          NaN
+2024-06-25 23:00:00,845 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240613104557_【RPA転送】要員募集一覧_20240524.xlsx.csv
+2024-06-25 23:00:00,859 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240613104557_【RPA転送】要員募集一覧_20240524.xlsx.csv
+2024-06-25 23:00:00,860 - INFO - Processing complete

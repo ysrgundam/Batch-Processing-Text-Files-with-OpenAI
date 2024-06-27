@@ -5,76 +5,153 @@ from io import StringIO
 import re
 import csv
 import codecs
+import logging
+from datetime import datetime
+import traceback
 
-# 读取配置文件
-with open('config.yaml', 'r', encoding='utf-8') as file:
-    config = yaml.safe_load(file)
+def setup_logging(log_folder):
+    os.makedirs(log_folder, exist_ok=True)
+    current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_file = os.path.join(log_folder, f"markdown_to_csv_{current_time}.log")
+    
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler(log_file, encoding='utf-8'),
+            logging.StreamHandler()
+        ]
+    )
+    
+    logging.info(f"Log file created at: {log_file}")
 
-# 从配置文件获取参数
-input_folder_path = config['output_messagefolder']['path']
-output_folder_path = config['output_csvfolder']['path']
+def read_config(config_path='config.yaml'):
+    try:
+        with open(config_path, 'r', encoding='utf-8') as file:
+            return yaml.safe_load(file)
+    except Exception as e:
+        logging.error(f"Error reading config file: {str(e)}\n{traceback.format_exc()}")
+        return None
 
-# 遍历输入文件夹中的所有.txt文件
-for file_name in os.listdir(input_folder_path):
-    if file_name.endswith('.txt'):
-        file_path = os.path.join(input_folder_path, file_name)
-        
-        # 读取文件内容
+def preprocess_table_content(content):
+    pattern = r"\|提供元案件番号\|.*?(?=\n\n|\Z)"
+    table_content = re.search(pattern, content, re.DOTALL)
+    
+    if not table_content:
+        raise ValueError("No table content found in the file")
+    
+    return table_content.group(0)
+
+def convert_to_dataframe(table_content):
+    data_io = StringIO(table_content)
+    try:
+        df = pd.read_csv(data_io, sep='|', skipinitialspace=True)
+        df.columns = df.columns.str.strip()
+        df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+        return df
+    except pd.errors.ParserError as e:
+        logging.error(f"ParserError: {str(e)}\n{traceback.format_exc()}")
+        logging.error(f"Problematic content:\n{table_content}")
+        return None
+
+def save_csv(df, output_path, encoding='utf-8'):
+    try:
+        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+        df.to_csv(output_path, index=False, encoding=encoding, quoting=csv.QUOTE_ALL)
+        logging.info(f"CSV saved successfully: {output_path}")
+    except UnicodeEncodeError as e:
+        logging.error(f"UnicodeEncodeError: {str(e)}\nProblematic data:\n{df[df.applymap(lambda x: '\uFFFD' in str(x))]}")
+    except Exception as e:
+        logging.error(f"Error saving CSV: {str(e)}\n{traceback.format_exc()}")
+
+def read_csv(file_path, encoding='utf-8'):
+    try:
+        df = pd.read_csv(file_path, encoding='utf-8-sig', index_col=False)
+        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+        return df
+    except Exception as e:
+        logging.error(f"Error reading CSV: {str(e)}\n{traceback.format_exc()}")
+        return None
+
+def convert_encoding(input_path, output_path, input_encoding='utf-8', output_encoding='shift_jis'):
+    try:
+        df = read_csv(input_path, input_encoding)
+        if df is not None:
+            logging.debug(f"DataFrame shape before conversion: {df.shape}")
+            logging.debug(f"DataFrame columns: {df.columns}")
+            logging.debug(f"First few rows:\n{df.head()}")
+            
+            df_encoded = df.applymap(lambda x: str(x).encode(output_encoding, errors='ignore').decode(output_encoding))
+            
+            df_encoded.to_csv(output_path, index=False, encoding=output_encoding, quoting=csv.QUOTE_ALL)
+            
+            logging.info(f"Encoding conversion complete. Output file: {output_path}")
+            logging.debug(f"DataFrame shape after conversion: {df_encoded.shape}")
+        else:
+            logging.error(f"Failed to read input file: {input_path}")
+    except Exception as e:
+        logging.error(f"Error during encoding conversion: {str(e)}\n{traceback.format_exc()}")
+
+def process_file(file_path, output_folder):
+    try:
         with open(file_path, 'r', encoding='utf-8') as file:
             email_content = file.read()
 
-        # 设置显示的最大列数
-        pd.set_option('display.max_columns', None)
+        logging.info(f"Processing file: {file_path}")
+        
+        table_content = preprocess_table_content(email_content)
+        df = convert_to_dataframe(table_content)
 
-        # 设置显示的最大行数
-        pd.set_option('display.max_rows', None)
+        if df is not None and not df.empty:
+            base_name = os.path.splitext(os.path.basename(file_path))[0]
+            utf8_path = os.path.join(output_folder, f"extracted_data_utf-8_{base_name}.csv")
+            shiftjis_path = os.path.join(output_folder, f"extracted_data_shiftjis_{base_name}.csv")
 
-        # 设置列宽，使得DataFrame中的数据不会被过早截断
-        pd.set_option('display.max_colwidth', None)
+            save_csv(df, utf8_path, 'utf-8')
+            convert_encoding(utf8_path, shiftjis_path)
+        else:
+            logging.error(f"Failed to create DataFrame or DataFrame is empty for file: {file_path}")
 
-        # 使用正则表达式找出表格部分
-        pattern = r"紹介日\|提供元案件番号\|.*?(?=\n\n|$)"  # 假设表格每行以日期开头，后面不是数字的行标志表格结束
-        table_content = '\n'.join(re.findall(pattern, email_content, re.DOTALL))
+    except Exception as e:
+        logging.error(f"Error processing file {file_path}: {str(e)}\n{traceback.format_exc()}")
 
-        # 预处理数据以处理连续的列分隔符
-        table_content = re.sub(r'\|\|', '|empty|', table_content)
+def check_csv_content(file_path, encoding):
+    try:
+        with open(file_path, 'r', encoding=encoding) as f:
+            content = f.read()
+            logging.info(f"Content of {file_path} ({encoding}):")
+            logging.info(content[:500])  # 只记录前500个字符
+    except Exception as e:
+        logging.error(f"Error reading {file_path}: {str(e)}")
 
-        # 将预处理后的表格字符串转换为DataFrame
-        data_io = StringIO(table_content)
-        try:
-            df = pd.read_csv(data_io, sep='|')
-        except pd.errors.ParserError as e:
-            print(f"ParserError: {str(e)}")
-            print("Data preprocessing failed to handle inconsistent separators.")
+def main():
+    config = read_config()
+    if not config:
+        return
 
-        print(df)
+    input_folder_path = config['output_messagefolder']['path']
+    output_folder_path = config['output_csvfolder']['path']
+    log_folder_path = config.get('log_folder', {}).get('path', 'logs')
 
-        # 创建输出文件夹（如果不存在）
-        os.makedirs(output_folder_path, exist_ok=True)
+    setup_logging(log_folder_path)
 
-        # 生成CSV文件的路径
-        csv_file_name = f"extracted_data_utf-8_{os.path.splitext(file_name)[0]}.csv"
-        csv_file_path = os.path.join(output_folder_path, csv_file_name)
+    os.makedirs(output_folder_path, exist_ok=True)
 
-        # 将DataFrame保存为CSV文件 (UTF-8 编码)
-        df.to_csv(csv_file_path, index=False, encoding='utf-8')
+    logging.info(f"Starting processing of files in {input_folder_path}")
 
-        # 生成Shift_JIS编码的CSV文件的路径
-        output_file_name = f"extracted_data_shiftjis_{os.path.splitext(file_name)[0]}.csv"
-        output_file_path = os.path.join(output_folder_path, output_file_name)
-
-        # 打开输入文件 (UTF-8 编码)
-        with codecs.open(csv_file_path, 'r', 'utf-8') as file:
-            reader = csv.reader(file)
-            rows = list(reader)
-
-        # 打开输出文件 (Shift_JIS 编码)
-        with codecs.open(output_file_path, 'w', 'shift_jis') as file:
-            writer = csv.writer(file)
+    for file_name in os.listdir(input_folder_path):
+        if file_name.endswith('.txt'):
+            file_path = os.path.join(input_folder_path, file_name)
+            process_file(file_path, output_folder_path)
             
-            # 逐行写入转换后的数据
-            for row in rows:
-                encoded_row = [cell.encode('shift_jis', 'ignore').decode('shift_jis') for cell in row]
-                writer.writerow(encoded_row)
+            base_name = os.path.splitext(file_name)[0]
+            utf8_path = os.path.join(output_folder_path, f"extracted_data_utf-8_{base_name}.csv")
+            shiftjis_path = os.path.join(output_folder_path, f"extracted_data_shiftjis_{base_name}.csv")
+            
+            check_csv_content(utf8_path, 'UTF-8')
+            check_csv_content(shiftjis_path, 'shift_jis')
 
-        print(f"转换完成. 输出文件: {output_file_name}")
+    logging.info("Processing complete")
+
+if __name__ == "__main__":
+    main()

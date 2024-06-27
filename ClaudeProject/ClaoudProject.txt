@@ -1,0 +1,10 @@
+Our company is an IT consulting firm. We are small in size, so many of our projects are in the shape of participating in other companies' projects as a talent dispatch.
+As a result we receive a large number of case seeking intelligence emails every day.
+Because of the large number and the inconsistent granularity of format and content. We spend a lot of time every day to organize the intelligence and enter it into our system.
+Now we are going to use LLM to convert the large number of emails into forms and then automatically import them into our system (Kintone)
+
+My initial plan is to use Power Automate to convert all incoming emails to text files, then use the text files to LLM for processing, and finally output to a csv table.
+The processing will be performed by a local Python script.
+In the future, you can go back to re-local migration to AWS or other cloud execution.
+
+My main language is Chinese or Japanese.I would like you to ask questions about code related issues.

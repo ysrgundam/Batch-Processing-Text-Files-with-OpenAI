@@ -1,0 +1,203 @@
+ 
+
+ 
+
+From: Mingxing Yu <mx.yu@arkconsulting.co.jp>
+Sent: Wednesday, June 5, 2024 5:20 PM
+To: Shuorui Yang <shuorui.yang@arkconsulting.co.jp>
+Subject: FW: 【マンパワーグループ】募集案件のご案内_案件情報
+
+ 
+
+ 
+
+ 
+
+于 明星 | Yu Mingxing
+
+ARK CONSULTING, Ltd.
+
+E-mail : mx.yu@arkconsulting.co.jp
+
+Mobile: (+81) 80-3204-1006
+
+Kudan Kaikan Terrace,
+
+1-6-5 Kudan Minami, Chiyoda-ku,
+
+102-0074, Tokyo, Japan
+
+ 
+
+From: partner193 <partner193@manpowergroup.jp>
+Sent: Wednesday, June 5, 2024 3:37 PM
+Cc: Yoshida, Kimihiro <k.yoshida@manpowergroup.jp>; Abe, Junko
+<jabe@manpowergroup.jp>; Shimizu, Ai <ai.shimizu@manpowergroup.jp>; Sano,
+Masanobu <msano@manpowergroup.jp>; Nakashima, Kayane
+<kayane.nakashima@manpowergroup.jp>; Ishitoya, Sonoko
+<sishitoya@manpowergroup.jp>; Nakayama, Ikumi <ikumi.nakayama@manpowergroup.jp>
+Subject: 【マンパワーグループ】募集案件のご案内_案件情報
+
+ 
+
+お取引先各位
+
+　（BCC にて複数の会社様にお送りしております。）
+
+ 
+
+いつもお世話になっております。マンパワーグループ荒井です。
+
+下記案件情報を送付させて頂きます。
+
+ 
+
+ご提案可能な技術者がいらっしゃいましたら、「応募内容」と条件等を明記いただき、
+
+担当宛にスキルシート（お名前をイニシャル）のご提出をお願い致します。
+
+
+---------------------------------------------
+
+■ご提案先
+
+   阿部 ：　jabe@manpowergroup.jp
+---------------------------------------------
+
+■応募内容　（ 再々委託先がございます場合は、商流の事前開示をお願いいたします。）
+
+　1. 応募案件ID　（案件番号）：
+
+　2. 面談可能日　：
+
+　3. 開始可能日　：
+
+　4. 希望単金　：
+
+　5．国籍　：
+
+--------------------------------------------
+
+No.
+
+案件種別
+
+クライアント業界
+
+作業概要
+
+場所
+
+月間想定工数/FTE
+
+開始
+
+終了
+
+延長可能性
+
+ 
+
+1930605
+KS-1
+
+基幹システム更改プロジェクト
+（mcframe）
+
+製造業
+
+要件定義
+mcframe導入(SCM領域)におけるTo-Be業務とパッケージのFIT/GAP作業
+
+◎マストスキル　　　
+・販売管理又は生産管理業務知識　　　
+・mcframe7導入プロジェクトにおける要件定義(上流工程)の経験　　　
+・セッションスピーカの経験
+○オプションスキル　　　
+・組立加工業
+
+在宅or　
+お客様先（大阪）
+
+160H～180H程度
+
+ 
+
+1～2名
+
+ASAP
+
+2026年9月30日
+
+-
+
+ 
+
+No.
+
+案件種別
+
+クライアント業界
+
+作業概要
+
+場所
+
+月間想定工数/FTE
+
+開始
+
+終了
+
+延長可能性
+
+1930605
+KS-2
+
+データレプリケーションのPoC案件　
+
+金融
+
+IBM社製品(CDS)を使ったデータレプリケーションのPoC案件
+
+◎マストスキル　
+DB2技術者
+(お客様 DB2エキスパートとともに、PoC環境構築と機能検証を実施して頂ける方)
+
+東京（高田馬場）
+※リモート可能　
+（但し、会議時は高田馬場へ出社）
+
+160H～180H程度
+
+ 
+
+1名
+
+ASAP
+
+2025年10月30日
+
+-
+
+ 
+
+ 
+
+ご提案頂けますよう何卒宜しくお願い致します。
+
+ 
+
+ 
+
+◆◇ ManpowerGroup - Experis ―――――――――――――――――――――――――――――
+マンパワーグループ株式会社　テクノロジー・ソリューション第1支店
+
+108-0023　東京都港区芝浦 3-1-1   田町ステーションタワーN 30F
+　　荒井　ひとみ
+　　E-Mail   :　hitomi.arai@manpowergroup.jp
+
+T: 03-4531-2950　F: 03-4531-2925　Direct: 070-2326-9983
+―――――――――――――――――――――――――――――――――――――――――――◇◆
+
+ 

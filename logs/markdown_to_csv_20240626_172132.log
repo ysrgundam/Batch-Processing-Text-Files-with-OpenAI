@@ -1,0 +1,29 @@
+2024-06-26 17:21:32,109 - INFO - Log file created at: logs\markdown_to_csv_20240626_172132.log
+2024-06-26 17:21:32,110 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-06-26 17:21:32,111 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240626142552_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-06-26 17:21:32,140 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240626142552_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-06-26 17:21:32,227 - ERROR - Error saving CSV: 'shift_jis' codec can't encode character '\uff5e' in position 131: illegal multibyte sequence
+Traceback (most recent call last):
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 64, in save_csv
+    df.to_csv(output_path, index=False, encoding=encoding, quoting=csv.QUOTE_ALL)
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\csvs.py", line 270, in save
+    self._save()
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\csvs.py", line 275, in _save
+    self._save_body()
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\csvs.py", line 313, in _save_body
+    self._save_chunk(start_i, end_i)
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\csvs.py", line 324, in _save_chunk
+    libwriters.write_csv_rows(
+  File "writers.pyx", line 76, in pandas._libs.writers.write_csv_rows
+UnicodeEncodeError: 'shift_jis' codec can't encode character '\uff5e' in position 131: illegal multibyte sequence
+
+2024-06-26 17:21:32,228 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240626142552_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-06-26 17:21:32,228 - INFO - Processing complete

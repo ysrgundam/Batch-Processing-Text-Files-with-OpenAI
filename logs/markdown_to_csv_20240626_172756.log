@@ -1,0 +1,25 @@
+2024-06-26 17:27:56,092 - INFO - Log file created at: logs\markdown_to_csv_20240626_172756.log
+2024-06-26 17:27:56,093 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-06-26 17:27:56,093 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240626142552_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-06-26 17:27:56,118 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240626142552_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-06-26 17:27:56,142 - DEBUG - DataFrame shape before conversion: (2, 16)
+2024-06-26 17:27:56,144 - DEBUG - DataFrame columns: Index(['提供元案件番号', '委託元', '業界', 'PJフェーズ', 'モジュール', 'SAP案件', '単価', '募集人数', '開始日',
+       '終了日', '勤務地', '案件概要', '必須要件', '歓迎要件', '言語力', 'メインポジション'],
+      dtype='object')
+2024-06-26 17:27:56,186 - DEBUG - First few rows:
+           提供元案件番号  委託元                           業界 PJフェーズ  ...            必須要件   歓迎要件  言語力 メインポジション
+0  1930605<br>KS-1  製造業  基幹システム更改プロジェクト<br>(mcframe)    製造業  ...  販売管理又は生産管理業務知識  組立加工業  日本語    empty
+1  1930605<br>KS-2   金融            データレプリケーションのPoC案件     金融  ...           empty  empty  日本語    empty
+
+[2 rows x 16 columns]
+2024-06-26 17:27:56,197 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240626142552_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-06-26 17:27:56,198 - DEBUG - DataFrame shape after conversion: (2, 16)
+2024-06-26 17:27:56,198 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240626142552_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv (UTF-8):
+2024-06-26 17:27:56,199 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"1930605<br>KS-1","製造業","基幹システム更改プロジェクト<br>(mcframe)","製造業","要件定義<br>mcframe導入(SCM領域)における<br>To-Be業務とパッケージのFIT/GAP作業","×","160H<br>～180H程度","1～2名","ASAP","2026年9月30日","-","要件定義<br>mcframe7導入プロジェクトにおける要件定義(上流工程)の経験<br>セッションスピーカの経験","販売管理又は生産管理業務知識","組立加工業","日本語","empty"
+"1930605<br>KS-2","金融","データレプリケーションのPoC案件","金融","IBM社製品(CDS)を使ったデータレプリケーションのPoC案件","×","160H<br>～180H程度","1名","ASAP"
+2024-06-26 17:27:56,205 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240626142552_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv (shift_jis):
+2024-06-26 17:27:56,206 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"1930605<br>KS-1","製造業","基幹システム更改プロジェクト<br>(mcframe)","製造業","要件定義<br>mcframe導入(SCM領域)における<br>To-Be業務とパッケージのFIT/GAP作業","×","160H<br>180H程度","12名","ASAP","2026年9月30日","-","要件定義<br>mcframe7導入プロジェクトにおける要件定義(上流工程)の経験<br>セッションスピーカの経験","販売管理又は生産管理業務知識","組立加工業","日本語","empty"
+"1930605<br>KS-2","金融","データレプリケーションのPoC案件","金融","IBM社製品(CDS)を使ったデータレプリケーションのPoC案件","×","160H<br>180H程度","1名","ASAP","2
+2024-06-26 17:27:56,207 - INFO - Processing complete
