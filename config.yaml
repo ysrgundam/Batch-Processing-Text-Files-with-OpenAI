@@ -16,44 +16,50 @@ output_csvfolder:
 
 prompt:
   text: |
-    The following email contains information about IT project recruitment. Please extract the information into a table format according to the items below. The output should be in Japanese.
+    The following email contains information about IT project recruitment. Please extract the information into a CSV format according to the items below. The output should be in Japanese.
 
-    # Rules
+    ## Rules
     1. If multiple projects are mentioned in the email, output each project on a separate row.
-    2. Each column in the table should correspond to the specified items. Do not include any other information.
-    3. The response should only contain the table, without any additional information.
-    4. Format the table as follows:
-      - Separate each column with a pipe symbol (|).
+    2. Each column in the CSV should correspond to the specified items. Do not include any other information.
+    3. The response should only contain the CSV data, without any additional information.
+    4. Format the CSV as follows:
+      - Use commas (,) to separate each column.
       - The first row should contain column names, with data starting from the second row.
-      - Add pipe symbols (|) at the start and end of each row.
-      - Do not include separator lines (like ---) between column names or data rows.
+      - **IMPORTANT**: Enclose fields in double quotes (") if they contain any of the following:
+        - Commas
+        - Line breaks
+        - Double quotes (escape these by doubling them, e.g., "" for a single ")
+      - Do not use quotes for fields that don't require them.
     5. Use the same language as the case introduction if there are no special language requirements.
     6. Include the information about monthly expected work hours / FTE in the project summary.
 
-    # Items to extract (column names should be in Japanese)
-    提供元案件番号: Project number mentioned in the email， use "要確認" if not requested.
-    委託元: Client or proposing entity， use "要確認" if not requested.
-    業界: Industry of the client， use "要確認" if not requested.
-    PJフェーズ: Current phase of the project， use "要確認" if not requested.
-    モジュール: Related SAP module (if it's an SAP project)， use "要確認" if not requested.
-    SAP案件: Whether it's an SAP-related project (use 〇 for yes, × for no)
-    単価: Monthly rate (in 10,000 yen)， use "要確認" if not requested.
-    募集人数: Number of people needed for the project， use "要確認" if not requested.
-    開始日: Start date for the participant， use "要確認" if not requested.
-    終了日: End date for the participant， use "要確認" if not requested.
-    勤務地: Work location， use "要確認" if not requested.
-    案件概要: Summary of the project (including monthly expected work hours / FTE)， use "要確認" if not requested.
-    必須要件: Required experience and skills， use "要確認" if not requested.
-    歓迎要件: Preferred experience and skills， use "要確認" if not requested.
-    言語力: Required or preferred language skills (Use the same language as the case introduction if there are no special language requirements.)， use "日本語" if not requested.
-    メインポジション: Main role (e.g., Leader, PMO, Developer)
+    ## Items to extract (column names should be in Japanese)
+    提供元案件番号,委託元,業界,PJフェーズ,モジュール,SAP案件,単価,募集人数,開始日,終了日,勤務地,案件概要,必須要件,歓迎要件,言語力,メインポジション,商流
 
-    # Email content to extract from
+    ## Descriptions for each item
+    [Your existing descriptions here]
+
+    案件概要: Provide a comprehensive project description (minimum 500 words) using bullet points. Include:
+    1. All information from other sections.
+    2. Project details (e.g., age restrictions, number of interviews, business flow).
+    3. Monthly expected work hours / FTE.
+    4. Any relevant remarks or additional information.
+    5. Ensure all pertinent information is captured in a clear, organized manner.
+    6. **IMPORTANT**: This field must always be enclosed in double quotes (") due to its length and potential for commas and line breaks.
+
+    [Rest of your existing descriptions]
+
+    ## Email content to extract from
     {email_content}
 
-    # Output format example (in Japanese)
-    |提供元案件番号|委託元|業界|PJフェーズ|モジュール|SAP案件|単価|募集人数|開始日|終了日|勤務地|案件概要|必須要件|歓迎要件|言語力|メインポジション|
-    |AB-123|アクセンチュア|製造業|要件定義|SD|〇|100|1|即日|2024/12/31|東京|SAP導入プロジェクト。月間想定工数160時間、FTE 1.0。|SAP SDモジュール経験|製造業経験|日本語|コンサルタント|
+    ## Output format example (in Japanese)
+    提供元案件番号,委託元,業界,PJフェーズ,モジュール,SAP案件,単価,募集人数,開始日,終了日,勤務地,案件概要,必須要件,歓迎要件,言語力,メインポジション,商流
+    AB-123,アクセンチュア,製造業,要件定義,SD,〇,100万円,1,即日,2024/12/31,東京,"• SAP導入プロジェクト。
+    • 月間想定工数160時間、FTE 1.0。
+    • [その他の詳細な案件概要]",SAP SDモジュール経験,製造業経験,日本語,コンサルタント,"弊社2次請け（エンド→元請け→弊社）"
+
+    ## Final Reminder
+    Always enclose the 案件概要 field in double quotes, and use double quotes for any other fields containing commas, line breaks, or double quotes. Double-check your output to ensure proper quoting is applied where necessary.
 
 max_tokens: 4096
 

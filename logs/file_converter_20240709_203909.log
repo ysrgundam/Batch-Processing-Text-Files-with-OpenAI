@@ -1,0 +1,13 @@
+2024-07-09 20:39:09,803 - INFO - Log file created at: logs\file_converter_20240709_203909.log
+2024-07-09 20:39:09,804 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-09 20:39:09,806 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709183621_【RPA転送】FW_ 【案件のご相談】INTLOOP古久保_utf8.csv
+2024-07-09 20:39:09,813 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709183621_【RPA転送】FW_ 【案件のご相談】INTLOOP古久保_shiftjis.csv
+2024-07-09 20:39:09,815 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709183829_【RPA転送】FW_ 7_9【急募案件のご相談】ストラテジーテックコンサルティング高瀬_utf8.csv
+2024-07-09 20:39:09,821 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709183829_【RPA転送】FW_ 7_9【急募案件のご相談】ストラテジーテックコンサルティング高瀬_shiftjis.csv
+2024-07-09 20:39:09,823 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709183928_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_utf8.csv
+2024-07-09 20:39:09,831 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709183928_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_shiftjis.csv
+2024-07-09 20:39:09,832 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709184149_【RPA転送】FW_ 【7月9日_案件一覧更新のお知らせ】Regrit Partnersの松嶋です。_utf8.csv
+2024-07-09 20:39:09,837 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709184149_【RPA転送】FW_ 【7月9日_案件一覧更新のお知らせ】Regrit Partnersの松嶋です。_shiftjis.csv
+2024-07-09 20:39:09,838 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709184302_【RPA転送】FW_ 【注力案件のご紹介】RegritPartners小林_utf8.csv
+2024-07-09 20:39:09,848 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709184302_【RPA転送】FW_ 【注力案件のご紹介】RegritPartners小林_shiftjis.csv
+2024-07-09 20:39:09,849 - INFO - Processing complete

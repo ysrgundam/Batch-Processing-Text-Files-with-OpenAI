@@ -1,0 +1,36 @@
+2024-07-09 10:48:21,971 - INFO - Log file created at: logs\markdown_to_csv_20240709_104821.log
+2024-07-09 10:48:21,972 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-09 10:48:21,973 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.txt
+2024-07-09 10:48:21,990 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv
+2024-07-09 10:48:22,093 - ERROR - Error during encoding conversion: 'shift_jis' codec can't encode character '\uff5e' in position 48: illegal multibyte sequence
+Traceback (most recent call last):
+  File "D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\2_TableMessageToCsv.py", line 77, in convert_encoding
+    df.to_csv(output_path, index=False, encoding=output_encoding, quoting=csv.QUOTE_ALL, escapechar='\\', doublequote=False)
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\csvs.py", line 270, in save
+    self._save()
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\csvs.py", line 275, in _save
+    self._save_body()
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\csvs.py", line 313, in _save_body
+    self._save_chunk(start_i, end_i)
+  File "c:\Users\Shuorui Yang\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\formats\csvs.py", line 324, in _save_chunk
+    libwriters.write_csv_rows(
+  File "writers.pyx", line 76, in pandas._libs.writers.write_csv_rows
+UnicodeEncodeError: 'shift_jis' codec can't encode character '\uff5e' in position 48: illegal multibyte sequence
+
+2024-07-09 10:48:22,095 - WARNING - No special character '~' found in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv
+2024-07-09 10:48:22,102 - WARNING - No special character '~' found in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv
+2024-07-09 10:48:22,104 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv (UTF-8):
+2024-07-09 10:48:22,104 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"要確認","要確認","タバコ","要確認","Azure Databricks","×","～220万（応相談）","1名","即日（8月開始も可）","2024年9月30日","基本リモート/月に数回神谷町の可能性あり","国内タバコメーカーのシステム移行推進プロジェクト。SAS9→Azure Databricksマイグレーション、Tableau→Azure Databricksへの統合、各種問い合わせ対応支援を含む。稼働率：80～100%","コアコンスキル（コンサルティングファームマネージャー相当）、英語力、PMOスキル、不確定要素が多い中で事象を整理しながら物事を推進していく力、IT知見","一般的なシステム移行に関するIT知見（インフラやネットワーク周りの知見があるとBetter）","英語（海外拠点とシステム環境整備、開発スケジュールなどについて
+2024-07-09 10:48:22,105 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv (shift_jis):
+2024-07-09 10:48:22,105 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+
+2024-07-09 10:48:22,106 - INFO - Processing complete

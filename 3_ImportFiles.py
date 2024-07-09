@@ -41,7 +41,7 @@ api_token = config['kintone']['api_token']
 output_folder_path = config['output_csvfolder']['path']
 
 # UTF-8エンコードのCSVファイルを見つける
-csv_files = [f for f in os.listdir(output_folder_path) if f.startswith('extracted_data_utf-8_') and f.endswith('.csv')]
+csv_files = [f for f in os.listdir(output_folder_path) if f.endswith('_utf8.csv')]
 
 successful_imports = 0
 total_files = len(csv_files)

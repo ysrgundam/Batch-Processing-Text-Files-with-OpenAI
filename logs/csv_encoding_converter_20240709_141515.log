@@ -1,0 +1,18 @@
+2024-07-09 14:15:15,146 - INFO - Log file created at: logs\csv_encoding_converter_20240709_141515.log
+2024-07-09 14:15:15,147 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-09 14:15:15,157 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705202841_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-07-09 14:15:15,159 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705202841_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_utf8.csv
+2024-07-09 14:15:15,162 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705202841_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_shiftjis.csv
+2024-07-09 14:15:15,170 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705202934_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-07-09 14:15:15,172 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705202934_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_utf8.csv
+2024-07-09 14:15:15,173 - ERROR - Error saving CSV D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705202934_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_shiftjis.csv: 'shift_jis' codec can't encode character '\uff5e' in position 1217: illegal multibyte sequence
+2024-07-09 14:15:15,182 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705202949_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-07-09 14:15:15,183 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705202949_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_utf8.csv
+2024-07-09 14:15:15,183 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705202949_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_shiftjis.csv
+2024-07-09 14:15:15,192 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.txt
+2024-07-09 14:15:15,193 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ_utf8.csv
+2024-07-09 14:15:15,194 - ERROR - Error saving CSV D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ_shiftjis.csv: 'shift_jis' codec can't encode character '\uff5e' in position 123: illegal multibyte sequence
+2024-07-09 14:15:15,203 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705203041_【RPA転送】FW_ 【INTLOOP】案件のご相談.txt
+2024-07-09 14:15:15,204 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705203041_【RPA転送】FW_ 【INTLOOP】案件のご相談_utf8.csv
+2024-07-09 14:15:15,206 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705203041_【RPA転送】FW_ 【INTLOOP】案件のご相談_shiftjis.csv
+2024-07-09 14:15:15,206 - INFO - Processing complete

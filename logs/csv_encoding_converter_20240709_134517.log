@@ -1,0 +1,6 @@
+2024-07-09 13:45:17,934 - INFO - Log file created at: logs\csv_encoding_converter_20240709_134517.log
+2024-07-09 13:45:17,935 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-09 13:45:17,946 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705202841_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-07-09 13:45:17,947 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705202841_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_utf8.csv
+2024-07-09 13:45:17,950 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705202841_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_shiftjis.csv
+2024-07-09 13:45:17,950 - INFO - Processing complete

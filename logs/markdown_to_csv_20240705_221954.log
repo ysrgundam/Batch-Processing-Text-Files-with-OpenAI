@@ -1,0 +1,103 @@
+2024-07-05 22:19:54,586 - INFO - Log file created at: logs\markdown_to_csv_20240705_221954.log
+2024-07-05 22:19:54,588 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-05 22:19:54,595 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705202841_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-07-05 22:19:54,624 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705202841_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-07-05 22:19:54,641 - DEBUG - DataFrame shape before conversion: (1, 16)
+2024-07-05 22:19:54,643 - DEBUG - DataFrame columns: Index(['提供元案件番号', '委託元', '業界', 'PJフェーズ', 'モジュール', 'SAP案件', '単価', '募集人数', '開始日',
+       '終了日', '勤務地', '案件概要', '必須要件', '歓迎要件', '言語力', 'メインポジション'],
+      dtype='object')
+2024-07-05 22:19:54,671 - DEBUG - First few rows:
+   提供元案件番号  委託元      業界     PJフェーズ       モジュール SAP案件   単価 募集人数       開始日         終了日                  勤務地                                               案件概要                                    必須要件                                               歓迎要件                言語力 メインポジション
+0  1930705  要確認  旅客・運輸業  構想策定、要件定義  Salesforce     ×  要確認   4名  2024/8/1  2024/10/31  リモートワーク（一部出社の可能性あり）  旅客・運輸業 コールセンターシステム刷新 Salesforce導入対応（構想策定、要件定義な...  コールセンターシステム全般の要件分析、構想策定、製品選定、要件定義のいずれか  Salesforce(Einstein Bot, MIAW)、CTI、IVR、Web電話、フ...  日本語：ビジネスレベル、英語：不要      要確認
+2024-07-05 22:19:54,681 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705202841_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-07-05 22:19:54,681 - DEBUG - DataFrame shape after conversion: (1, 16)
+2024-07-05 22:19:54,683 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705202841_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv (UTF-8):
+2024-07-05 22:19:54,683 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"1930705","要確認","旅客・運輸業","構想策定、要件定義","Salesforce","×","要確認","4名","2024/8/1","2024/10/31","リモートワーク（一部出社の可能性あり）","旅客・運輸業 コールセンターシステム刷新 Salesforce導入対応（構想策定、要件定義など）。（１）構想策定、要件定義（２）製品調査、製品選定（３）顧客問い合わせ、課題対応（４）各種打ち合わせへの参加。コールセンターシステム全般の要件分析、構想策定、製品選定、規模感の算出、要件定義、ドキュメンテーションなど。月間想定工数：160h±30h","コールセンターシステム全般の要件分析、構想策定、製品選定、要件定義のいずれか","Salesforce(Einstein Bot, MIAW)、CTI、IVR、Web電話、ファイル共有、アンケート(
+2024-07-05 22:19:54,692 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705202841_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv (shift_jis):
+2024-07-05 22:19:54,692 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"1930705","要確認","旅客・運輸業","構想策定、要件定義","Salesforce","×","要確認","4名","2024/8/1","2024/10/31","リモートワーク（一部出社の可能性あり）","旅客・運輸業 コールセンターシステム刷新 Salesforce導入対応（構想策定、要件定義など）。（１）構想策定、要件定義（２）製品調査、製品選定（３）顧客問い合わせ、課題対応（４）各種打ち合わせへの参加。コールセンターシステム全般の要件分析、構想策定、製品選定、規模感の算出、要件定義、ドキュメンテーションなど。月間想定工数：160h±30h","コールセンターシステム全般の要件分析、構想策定、製品選定、要件定義のいずれか","Salesforce(Einstein Bot, MIAW)、CTI、IVR、Web電話、ファイル共有、アンケート(
+2024-07-05 22:19:54,700 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705202934_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-07-05 22:19:54,710 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705202934_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-07-05 22:19:54,723 - DEBUG - DataFrame shape before conversion: (7, 16)
+2024-07-05 22:19:54,725 - DEBUG - DataFrame columns: Index(['提供元案件番号', '委託元', '業界', 'PJフェーズ', 'モジュール', 'SAP案件', '単価', '募集人数', '開始日',
+       '終了日', '勤務地', '案件概要', '必須要件', '歓迎要件', '言語力', 'メインポジション'],
+      dtype='object')
+2024-07-05 22:19:54,751 - DEBUG - First few rows:
+  提供元案件番号  委託元      業界 PJフェーズ モジュール SAP案件                            単価 募集人数              開始日  終了日                       勤務地                                               案件概要                                               必須要件                                               歓迎要件        言語力 メインポジション
+0     ---  ---     ---    ---   ---   ---                           ---  ---              ---  ---                       ---                                                ---                                                ---                                                ---        ---      ---
+1  AF-295  要確認    製薬業界    要確認  SDMM     〇                         200万円    1  2024/7/1もしくは8/1  要確認       リモート/出社（勝どきないしは日本橋）  国内製薬会社におけるSAP＋周辺システムのGlobal Template導入（Roll in...  SDMMのご経験（上流以降）、何かしらのリード経験、英語ビジネスレベル（本案件はAll En...                                                要確認  英語ビジネスレベル     リーダー
+2   BF-34  要確認  化学メーカー    要確認  JAVA     ×  メンバークラス：65-75万円、リーダークラス：85万円    3  2024/7/1もしくは8/1  要確認                       確認中      システム運用業務（定常業務、非定常業務）。月間想定工数420-480時間、FTE 3.0。            JAVAでの運用保守経験(領域：物流・営業管理系）、都内に出社が可能であること  SAP（FI,CO,AA）の経験、Excelマクロ、VB.Net,NetCOBOL(領域：物...        日本語      開発者
+3   BE-33  要確認     官公庁    要確認  Java     ×                           要確認    4               ７月  要確認                   出社（勝どき）  官公庁向けシステムアプリケーション基盤更改。AWS環境→コンテナ化への更改に併せて、アプリケ...  アプリケーション基盤更改経験（システム要件定義）、JAVA設計５年以上　フレームワーク：Sp...                                                要確認        日本語      設計者
+4   BF-35  要確認  化学メーカー    要確認   EDI     ×                           要確認    1         2024/8/1  要確認  週1回クライアントオフィス、週4回リモートワーク  統合EDI基盤「ACMS」を使ったEDIシステムの実行基盤維持管理業務。他システムとの連携処...  日本語でのコミュニケーション能力、EDIシステムに関する知見、ACMSシリーズの管理経験、L...                                       HULFT、JP1の経験        日本語     運用保守
+2024-07-05 22:19:54,758 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705202934_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-07-05 22:19:54,758 - DEBUG - DataFrame shape after conversion: (7, 16)
+2024-07-05 22:19:54,760 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705202934_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv (UTF-8):
+2024-07-05 22:19:54,760 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"---","---","---","---","---","---","---","---","---","---","---","---","---","---","---","---"
+"AF-295","要確認","製薬業界","要確認","SDMM","〇","200万円","1","2024/7/1もしくは8/1","要確認","リモート/出社（勝どきないしは日本橋）","国内製薬会社におけるSAP＋周辺システムのGlobal Template導入（Roll in）Project（Global Templateは国内製薬会社の親会社にて作成）。決まったアジェンダに対して、セッションを進めていくリードのポジション。月間想定工数140-160時間、FTE 1.0。","SDMMのご経験（上流以降）、何かしらのリード経験、英語ビジネスレベル（本案件はAll
+2024-07-05 22:19:54,769 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705202934_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv (shift_jis):
+2024-07-05 22:19:54,769 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"---","---","---","---","---","---","---","---","---","---","---","---","---","---","---","---"
+"AF-295","要確認","製薬業界","要確認","SDMM","〇","200万円","1","2024/7/1もしくは8/1","要確認","リモート/出社（勝どきないしは日本橋）","国内製薬会社におけるSAP＋周辺システムのGlobal Template導入（Roll in）Project（Global Templateは国内製薬会社の親会社にて作成）。決まったアジェンダに対して、セッションを進めていくリードのポジション。月間想定工数140-160時間、FTE 1.0。","SDMMのご経験（上流以降）、何かしらのリード経験、英語ビジネスレベル（本案件はAll
+2024-07-05 22:19:54,776 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705202949_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.txt
+2024-07-05 22:19:54,786 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705202949_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-07-05 22:19:54,797 - DEBUG - DataFrame shape before conversion: (1, 16)
+2024-07-05 22:19:54,798 - DEBUG - DataFrame columns: Index(['提供元案件番号', '委託元', '業界', 'PJフェーズ', 'モジュール', 'SAP案件', '単価', '募集人数', '開始日',
+       '終了日', '勤務地', '案件概要', '必須要件', '歓迎要件', '言語力', 'メインポジション'],
+      dtype='object')
+2024-07-05 22:19:54,821 - DEBUG - First few rows:
+     提供元案件番号  委託元   業界 PJフェーズ       モジュール SAP案件   単価 募集人数       開始日        終了日                         勤務地                                               案件概要                         必須要件 歓迎要件         言語力 メインポジション
+0  1930705-2  要確認  要確認    要確認  OutSystems     ×  要確認   1名  2024/8/1  2025/3/31  週１回顧客オフィス（最寄駅：赤坂駅）、週４回在宅勤務  既存のMS ACCESSで作成されているサプライヤDB管理システム又はDesktop App...  OutSystems開発経験、コミュニケーションスキル  要確認  日本語ビジネスレベル      要確認
+2024-07-05 22:19:54,827 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705202949_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv
+2024-07-05 22:19:54,828 - DEBUG - DataFrame shape after conversion: (1, 16)
+2024-07-05 22:19:54,828 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705202949_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv (UTF-8):
+2024-07-05 22:19:54,828 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"1930705-2","要確認","要確認","要確認","OutSystems","×","要確認","1名","2024/8/1","2025/3/31","週１回顧客オフィス（最寄駅：赤坂駅）、週４回在宅勤務","既存のMS ACCESSで作成されているサプライヤDB管理システム又はDesktop Application(Ｃ＃言語）をOutSystemsへの移行プロジェクト。業務内容のヒアリング・分析、プロトタイプの作成、既存のプログラムとドキュメントの解析および業務ユーザとの打ち合わせよりAs ISとTo Beの設計、お客様へのDemo、詳細設計・開発・テスト・デプロイ。月間想定工数160h±30h、FTE 1.0。","OutSystems開発経験、コミュニケーションスキル","要確認","日本語ビジネスレベル","要確認"
+
+2024-07-05 22:19:54,834 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705202949_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報.csv (shift_jis):
+2024-07-05 22:19:54,836 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"1930705-2","要確認","要確認","要確認","OutSystems","×","要確認","1名","2024/8/1","2025/3/31","週１回顧客オフィス（最寄駅：赤坂駅）、週４回在宅勤務","既存のMS ACCESSで作成されているサプライヤDB管理システム又はDesktop Application(Ｃ＃言語）をOutSystemsへの移行プロジェクト。業務内容のヒアリング・分析、プロトタイプの作成、既存のプログラムとドキュメントの解析および業務ユーザとの打ち合わせよりAs ISとTo Beの設計、お客様へのDemo、詳細設計・開発・テスト・デプロイ。月間想定工数160h±30h、FTE 1.0。","OutSystems開発経験、コミュニケーションスキル","要確認","日本語ビジネスレベル","要確認"
+
+2024-07-05 22:19:54,845 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.txt
+2024-07-05 22:19:54,855 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv
+2024-07-05 22:19:54,867 - DEBUG - DataFrame shape before conversion: (5, 16)
+2024-07-05 22:19:54,868 - DEBUG - DataFrame columns: Index(['提供元案件番号', '委託元', '業界', 'PJフェーズ', 'モジュール', 'SAP案件', '単価', '募集人数', '開始日',
+       '終了日', '勤務地', '案件概要', '必須要件', '歓迎要件', '言語力', 'メインポジション'],
+      dtype='object')
+2024-07-05 22:19:54,901 - DEBUG - First few rows:
+  提供元案件番号  委託元      業界 PJフェーズ             モジュール SAP案件                  単価    募集人数                                   開始日           終了日                                                勤務地                                               案件概要                                               必須要件                                               歓迎要件                                          言語力                                           メインポジション
+0     要確認  要確認     タバコ    要確認  Azure Databricks     ×          ～220万（応相談）      1名                            即日（8月開始も可）    2024年9月30日                               基本リモート/月に数回神谷町の可能性あり  国内タバコメーカーのシステム移行推進プロジェクト。SAS9→Azure Databricks...  コアコンスキル（コンサルティングファームマネージャー相当）、英語力、PMOスキル、不確定要素...     一般的なシステム移行に関するIT知見（インフラやネットワーク周りの知見があるとBetter）  英語（海外拠点とシステム環境整備、開発スケジュールなどについて議論する場面が多いため）                                             マネージャー
+1     要確認  要確認      化学    要確認               SAP     〇  150～240万程度を想定　※要相談    3～4名  2024年9月1日（7月中旬や8月開始等前倒し検討可能前倒し可能性あり）    2026年4月30日  基本リモート ※1回/月 or 1回/隔月で、アメリカ出張の可能性あり。 1回の出張は1-2...  日系化学メーカーのSAPロールアウトプロジェクト。アメリカで買収した子会社へのSAPロールア...  英語能力（ベンダもお客様も高い英語力がないメンバーが多いため、米国メンバーとコミュニケーショ...          SAPの知識（Integration領域であれば、システム導入スキルがあればOK）                  英語（ビジネスレベル以上）と日本語（ネイティブレベル）  Application Team Lead、Integration Team、SAP SD/...
+2     要確認  要確認     要確認    PMI               要確認     ×        160万円※スキル見合い      1名                                  即日開始    2025年3月末まで                                          オンサイト（港区）  企業合併後のPMI ITシステム移行プロジェクト。700台のPCの移行、MS365、サーバー...  英語（ビジネスレベル以上）と日本語（ネイティブレベル）バイリンガル、両言語で強力な口頭および...      PMIプロジェクトの経験、クラウドインフラの移行経験、複雑なIT統合プロジェクトの管理経験                  英語（ビジネスレベル以上）と日本語（ネイティブレベル）                                           IT移行リーダー
+3     要確認  要確認  フィットネス    要確認             Rails     ×   ①100万～130万 ②～160万  ①②1名ずつ                                    即日            未定                                 日本国内（フルリモート：海外はNG）  フィットネス市場のリーディングカンパニーでの各種システム構築。複数プロジェクトのPM業務、エ...  大規模システムPJでのPM経験2年以上、システム構築におけるドキュメント作成実務経験、エンジ...  コンサルティングファーム出身者、コミュニケーション能力がある方、柔軟に対応でき、自走できる能...                                          日本語                                       プロジェクトマネージャー
+4     要確認  要確認    損害保険   基本設計          InsureMO     ×           100～130万円     要確認                                    即日  9月※以降延長の可能性有                            リモート/出社(週2～3回出社想定 新橋付近)  損害保険会社の基幹システム刷新プロジェクト。InsureMOの導入、開発フェーズに向けた計画...                                    インフラ周りのシステム設計経験                              保険会社の基幹システム刷新プロジェクト経験                                          日本語                                            システム設計者
+2024-07-05 22:19:54,910 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv
+2024-07-05 22:19:54,910 - DEBUG - DataFrame shape after conversion: (5, 16)
+2024-07-05 22:19:54,910 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv (UTF-8):
+2024-07-05 22:19:54,911 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"要確認","要確認","タバコ","要確認","Azure Databricks","×","～220万（応相談）","1名","即日（8月開始も可）","2024年9月30日","基本リモート/月に数回神谷町の可能性あり","国内タバコメーカーのシステム移行推進プロジェクト。SAS9→Azure Databricksマイグレーション、Tableau→Azure Databricksへの統合、各種問い合わせ対応支援を含む。稼働率：80～100%","コアコンスキル（コンサルティングファームマネージャー相当）、英語力、PMOスキル、不確定要素が多い中で事象を整理しながら物事を推進していく力、IT知見","一般的なシステム移行に関するIT知見（インフラやネットワーク周りの知見があるとBetter）","英語（海外拠点とシステム環境整備、開発スケジュールなどについて
+2024-07-05 22:19:54,921 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv (shift_jis):
+2024-07-05 22:19:54,923 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"要確認","要確認","タバコ","要確認","Azure Databricks","×","220万（応相談）","1名","即日（8月開始も可）","2024年9月30日","基本リモート/月に数回神谷町の可能性あり","国内タバコメーカーのシステム移行推進プロジェクト。SAS9→Azure Databricksマイグレーション、Tableau→Azure Databricksへの統合、各種問い合わせ対応支援を含む。稼働率：80100%","コアコンスキル（コンサルティングファームマネージャー相当）、英語力、PMOスキル、不確定要素が多い中で事象を整理しながら物事を推進していく力、IT知見","一般的なシステム移行に関するIT知見（インフラやネットワーク周りの知見があるとBetter）","英語（海外拠点とシステム環境整備、開発スケジュールなどについて議論
+2024-07-05 22:19:54,930 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705203041_【RPA転送】FW_ 【INTLOOP】案件のご相談.txt
+2024-07-05 22:19:54,945 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705203041_【RPA転送】FW_ 【INTLOOP】案件のご相談.csv
+2024-07-05 22:19:54,959 - DEBUG - DataFrame shape before conversion: (2, 16)
+2024-07-05 22:19:54,961 - DEBUG - DataFrame columns: Index(['提供元案件番号', '委託元', '業界', 'PJフェーズ', 'モジュール', 'SAP案件', '単価', '募集人数', '開始日',
+       '終了日', '勤務地', '案件概要', '必須要件', '歓迎要件', '言語力', 'メインポジション'],
+      dtype='object')
+2024-07-05 22:19:54,986 - DEBUG - First few rows:
+   提供元案件番号  委託元   業界 PJフェーズ モジュール SAP案件          単価  募集人数 開始日       終了日                         勤務地                                               案件概要               必須要件 歓迎要件      言語力 メインポジション
+0   129136  要確認  非公開    要確認   SAC     〇  80万円～120万円     2  即日  2024年8月末                  フルリモート（在宅)  BWからSACへのコンバージョン支援。DSコンサルとしてSACコンバージョンへの要件を確認し...    SAC経験、DSコンサルの経験  要確認      日本語      要確認
+1   128097  要確認  製造業   構想策定    FM     〇         要確認     1  即日  2024年8月末  神奈川県横浜市 / フルリモート（在宅) / 鴨居駅  事業売却に伴うSAP分離・構築支援。FM領域における構想策定のリード。グローバル拠点における...  SAP移行PJにおける構想策定経験  要確認  ビジネスレベル      要確認
+2024-07-05 22:19:54,991 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705203041_【RPA転送】FW_ 【INTLOOP】案件のご相談.csv
+2024-07-05 22:19:54,993 - DEBUG - DataFrame shape after conversion: (2, 16)
+2024-07-05 22:19:54,994 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705203041_【RPA転送】FW_ 【INTLOOP】案件のご相談.csv (UTF-8):
+2024-07-05 22:19:54,994 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"129136","要確認","非公開","要確認","SAC","〇","80万円～120万円","2","即日","2024年8月末","フルリモート（在宅)","BWからSACへのコンバージョン支援。DSコンサルとしてSACコンバージョンへの要件を確認していく。稼働率100%。","SAC経験、DSコンサルの経験","要確認","日本語","要確認"
+"128097","要確認","製造業","構想策定","FM","〇","要確認","1","即日","2024年8月末","神奈川県横浜市 / フルリモート（在宅) / 鴨居駅","事業売却に伴うSAP分離・構築支援。FM領域における構想策定のリード。グローバル拠点におけるSAPの現行環境から新環境への移行に関する構想策定。稼働率20％。","SAP移行PJにおける構想策定経験","要確認","ビジネスレ
+2024-07-05 22:19:55,003 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705203041_【RPA転送】FW_ 【INTLOOP】案件のご相談.csv (shift_jis):
+2024-07-05 22:19:55,003 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"129136","要確認","非公開","要確認","SAC","〇","80万円120万円","2","即日","2024年8月末","フルリモート（在宅)","BWからSACへのコンバージョン支援。DSコンサルとしてSACコンバージョンへの要件を確認していく。稼働率100%。","SAC経験、DSコンサルの経験","要確認","日本語","要確認"
+"128097","要確認","製造業","構想策定","FM","〇","要確認","1","即日","2024年8月末","神奈川県横浜市 / フルリモート（在宅) / 鴨居駅","事業売却に伴うSAP分離・構築支援。FM領域における構想策定のリード。グローバル拠点におけるSAPの現行環境から新環境への移行に関する構想策定。稼働率20％。","SAP移行PJにおける構想策定経験","要確認","ビジネスレベ
+2024-07-05 22:19:55,004 - INFO - Processing complete

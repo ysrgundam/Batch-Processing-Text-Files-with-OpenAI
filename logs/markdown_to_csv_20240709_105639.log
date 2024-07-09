@@ -1,0 +1,26 @@
+2024-07-09 10:56:39,524 - INFO - Log file created at: logs\markdown_to_csv_20240709_105639.log
+2024-07-09 10:56:39,525 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-09 10:56:39,526 - INFO - Processing file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage\20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.txt
+2024-07-09 10:56:39,547 - INFO - CSV saved successfully: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv
+2024-07-09 10:56:39,555 - DEBUG - DataFrame shape before conversion: (5, 16)
+2024-07-09 10:56:39,556 - DEBUG - DataFrame columns: Index(['提供元案件番号', '委託元', '業界', 'PJフェーズ', 'モジュール', 'SAP案件', '単価', '募集人数', '開始日',
+       '終了日', '勤務地', '案件概要', '必須要件', '歓迎要件', '言語力', 'メインポジション'],
+      dtype='object')
+2024-07-09 10:56:39,583 - DEBUG - First few rows:
+  提供元案件番号  委託元  ...                                          言語力                                           メインポジション
+0     要確認  要確認  ...  英語（海外拠点とシステム環境整備、開発スケジュールなどについて議論する場面が多いため）                                             マネージャー
+1     要確認  要確認  ...                  英語（ビジネスレベル以上）と日本語（ネイティブレベル）  Application Team Lead、Integration Team、SAP SD/...
+2     要確認  要確認  ...                  英語（ビジネスレベル以上）と日本語（ネイティブレベル）                                           IT移行リーダー
+3     要確認  要確認  ...                                          日本語                                       プロジェクトマネージャー
+4     要確認  要確認  ...                                          日本語                                            システム設計者
+
+[5 rows x 16 columns]
+2024-07-09 10:56:39,590 - INFO - Encoding conversion complete. Output file: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv
+2024-07-09 10:56:39,590 - DEBUG - DataFrame shape after conversion: (5, 16)
+2024-07-09 10:56:39,591 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_utf-8_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv (UTF-8):
+2024-07-09 10:56:39,591 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"要確認","要確認","タバコ","要確認","Azure Databricks","×","～220万（応相談）","1名","即日（8月開始も可）","2024年9月30日","基本リモート/月に数回神谷町の可能性あり","国内タバコメーカーのシステム移行推進プロジェクト。SAS9→Azure Databricksマイグレーション、Tableau→Azure Databricksへの統合、各種問い合わせ対応支援を含む。稼働率：80～100%","コアコンスキル（コンサルティングファームマネージャー相当）、英語力、PMOスキル、不確定要素が多い中で事象を整理しながら物事を推進していく力、IT知見","一般的なシステム移行に関するIT知見（インフラやネットワーク周りの知見があるとBetter）","英語（海外拠点とシステム環境整備、開発スケジュールなどについて
+2024-07-09 10:56:39,593 - INFO - Content of D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\extracted_data_shiftjis_20240705203025_【RPA転送】FW_ 7月5日_RegritPartners大注力案件のお知らせ.csv (shift_jis):
+2024-07-09 10:56:39,594 - INFO - "提供元案件番号","委託元","業界","PJフェーズ","モジュール","SAP案件","単価","募集人数","開始日","終了日","勤務地","案件概要","必須要件","歓迎要件","言語力","メインポジション"
+"要確認","要確認","タバコ","要確認","Azure Databricks","×","220万（応相談）","1名","即日（8月開始も可）","2024年9月30日","基本リモート/月に数回神谷町の可能性あり","国内タバコメーカーのシステム移行推進プロジェクト。SAS9→Azure Databricksマイグレーション、Tableau→Azure Databricksへの統合、各種問い合わせ対応支援を含む。稼働率：80100%","コアコンスキル（コンサルティングファームマネージャー相当）、英語力、PMOスキル、不確定要素が多い中で事象を整理しながら物事を推進していく力、IT知見","一般的なシステム移行に関するIT知見（インフラやネットワーク周りの知見があるとBetter）","英語（海外拠点とシステム環境整備、開発スケジュールなどについて議論
+2024-07-09 10:56:39,594 - INFO - Processing complete

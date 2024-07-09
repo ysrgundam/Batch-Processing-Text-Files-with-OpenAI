@@ -1,0 +1,5 @@
+2024-07-09 20:44:48,151 - INFO - Log file created at: logs\file_converter_20240709_204448.log
+2024-07-09 20:44:48,152 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-09 20:44:48,153 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709184302_【RPA転送】FW_ 【注力案件のご紹介】RegritPartners小林_utf8.csv
+2024-07-09 20:44:48,164 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709184302_【RPA転送】FW_ 【注力案件のご紹介】RegritPartners小林_shiftjis.csv
+2024-07-09 20:44:48,164 - INFO - Processing complete

@@ -1,0 +1,5 @@
+2024-07-09 15:16:54,550 - INFO - Log file created at: logs\file_converter_20240709_151654.log
+2024-07-09 15:16:54,551 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-09 15:16:54,553 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705203041_【RPA転送】FW_ 【INTLOOP】案件のご相談_utf8.csv
+2024-07-09 15:16:54,565 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240705203041_【RPA転送】FW_ 【INTLOOP】案件のご相談_shiftjis.csv
+2024-07-09 15:16:54,566 - INFO - Processing complete
