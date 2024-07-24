@@ -1,0 +1,11 @@
+2024-07-12 15:01:49,540 - INFO - Log file created at: logs\file_converter_20240712_150149.log
+2024-07-12 15:01:49,541 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-12 15:01:49,544 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709184302_【RPA転送】FW_ 【注力案件のご紹介】RegritPartners小林_utf8.csv
+2024-07-12 15:01:49,557 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240709184302_【RPA転送】FW_ 【注力案件のご紹介】RegritPartners小林_shiftjis.csv
+2024-07-12 15:01:49,558 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240712101136_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_utf8.csv
+2024-07-12 15:01:49,566 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240712101136_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_shiftjis.csv
+2024-07-12 15:01:49,568 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240712144627_【RPA転送】FW_ 【ご提案依頼】 DTC要員募集リスト（SAP_その他）_utf8.csv
+2024-07-12 15:01:49,577 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240712144627_【RPA転送】FW_ 【ご提案依頼】 DTC要員募集リスト（SAP_その他）_shiftjis.csv
+2024-07-12 15:01:49,579 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240712144947_【RPA転送】FW_ 7_12 【案件のご相談】ストラテジーテック・コンサルティング佐藤_utf8.csv
+2024-07-12 15:01:49,588 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240712144947_【RPA転送】FW_ 7_12 【案件のご相談】ストラテジーテック・コンサルティング佐藤_shiftjis.csv
+2024-07-12 15:01:49,588 - INFO - Processing complete

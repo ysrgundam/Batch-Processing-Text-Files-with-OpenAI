@@ -1,0 +1,7 @@
+2024-07-23 17:08:06,159 - INFO - Log file created at: logs\file_converter_20240723_170806.log
+2024-07-23 17:08:06,160 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-23 17:08:06,162 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240723092611_【RPA転送】FW_ テクノスジャパン案件のご紹介（2024_07_23）_utf8.csv
+2024-07-23 17:08:06,173 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240723092611_【RPA転送】FW_ テクノスジャパン案件のご紹介（2024_07_23）_shiftjis.csv
+2024-07-23 17:08:06,175 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240723093133_【RPA転送】FW_ 【★注目★】大注力案件のご紹介【株式会社Regrit Partners】_utf8.csv
+2024-07-23 17:08:06,190 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240723093133_【RPA転送】FW_ 【★注目★】大注力案件のご紹介【株式会社Regrit Partners】_shiftjis.csv
+2024-07-23 17:08:06,191 - INFO - Processing complete

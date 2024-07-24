@@ -1,0 +1,5 @@
+2024-07-16 16:23:32,915 - INFO - Log file created at: logs\file_converter_20240716_162332.log
+2024-07-16 16:23:32,916 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-16 16:23:32,917 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240716155819_【RPA転送】FW_ 【ARK】貴社案件一覧の展開のお願い_utf8.csv
+2024-07-16 16:23:32,929 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240716155819_【RPA転送】FW_ 【ARK】貴社案件一覧の展開のお願い_shiftjis.csv
+2024-07-16 16:23:32,929 - INFO - Processing complete

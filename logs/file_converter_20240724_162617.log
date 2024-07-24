@@ -1,0 +1,5 @@
+2024-07-24 16:26:17,488 - INFO - Log file created at: logs\file_converter_20240724_162617.log
+2024-07-24 16:26:17,489 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-24 16:26:17,490 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240724113729_【RPA転送】FW_ 【リクエスト】弊社プロジェクト（SAP関連案件【急募】：1案件）への提案依頼の件（整理№：0012）_utf8.csv
+2024-07-24 16:26:17,505 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240724113729_【RPA転送】FW_ 【リクエスト】弊社プロジェクト（SAP関連案件【急募】：1案件）への提案依頼の件（整理№：0012）_shiftjis.csv
+2024-07-24 16:26:17,505 - INFO - Processing complete

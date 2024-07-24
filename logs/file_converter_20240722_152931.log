@@ -1,0 +1,7 @@
+2024-07-22 15:29:31,701 - INFO - Log file created at: logs\file_converter_20240722_152931.log
+2024-07-22 15:29:31,702 - INFO - Starting processing of files in D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputMessage
+2024-07-22 15:29:31,704 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240722111547_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_utf8.csv
+2024-07-22 15:29:31,717 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240722111547_【RPA転送】FW_ 【マンパワーグループ】募集案件のご案内_案件情報_shiftjis.csv
+2024-07-22 15:29:31,718 - INFO - File copied and renamed: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240722144446_【RPA転送】FW_ 【7月22日_案件一覧更新のお知らせ】Regrit Partnersの松嶋です。_utf8.csv
+2024-07-22 15:29:31,730 - INFO - File converted to Shift-JIS: D:\00_WIP\07_AI_PowerAutomate\Batch-Processing-Text-Files-with-OpenAI\OutputCSV\20240722144446_【RPA転送】FW_ 【7月22日_案件一覧更新のお知らせ】Regrit Partnersの松嶋です。_shiftjis.csv
+2024-07-22 15:29:31,731 - INFO - Processing complete

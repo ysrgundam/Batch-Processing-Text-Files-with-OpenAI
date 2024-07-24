@@ -23,13 +23,13 @@ prompt:
     2. Each column in the CSV should correspond to the specified items. Do not include any other information.
     3. The response should only contain the CSV data, without any additional information.
     4. Format the CSV as follows:
-      - Use commas (,) to separate each column.
-      - The first row should contain column names, with data starting from the second row.
-      - **IMPORTANT**: Enclose fields in double quotes (") if they contain any of the following:
+    - Use commas (,) to separate each column.
+    - The first row should contain column names, with data starting from the second row.
+    - **IMPORTANT**: Enclose fields in double quotes (") if they contain any of the following:
         - Commas
         - Line breaks
         - Double quotes (escape these by doubling them, e.g., "" for a single ")
-      - Do not use quotes for fields that don't require them.
+    - Do not use quotes for fields that don't require them.
     5. Use the same language as the case introduction if there are no special language requirements.
     6. Include the information about monthly expected work hours / FTE in the project summary.
 
@@ -38,14 +38,29 @@ prompt:
 
     ## Descriptions for each item
     [Your existing descriptions here]
-
-    案件概要: Provide a comprehensive project description (minimum 500 words) using bullet points. Include:
-    1. All information from other sections.
-    2. Project details (e.g., age restrictions, number of interviews, business flow).
-    3. Monthly expected work hours / FTE.
-    4. Any relevant remarks or additional information.
-    5. Ensure all pertinent information is captured in a clear, organized manner.
-    6. **IMPORTANT**: This field must always be enclosed in double quotes (") due to its length and potential for commas and line breaks.
+    - 提供元案件番号: Project number mentioned in the email. Use "要確認" if not provided.
+    - 委託元: Please enter the name of the company introducing the case (e.g., マンパワーグループ, INTLOOP, ABeam, Accenture, PwC). This field is required. Use "要確認" if not provided.
+    - 業界: Industry of the client. Use "要確認" if not provided.
+    - PJフェーズ: Current phase of the project. Use "要確認" if not provided.
+    - モジュール: Related SAP module (for SAP projects) or product/programming language (for non-SAP projects). Use "要確認" if not provided.
+    - SAP案件: Whether it's an SAP-related project (〇 for yes, × for no)
+    - 単価: Monthly rate in 10,000 yen. Include units (e.g., 68万円). Use "要確認" if not provided.
+    - 募集人数: Number of people needed for the project. Use "要確認" if not provided.
+    - 開始日: Start date for the participant. Use "要確認" if not provided.
+    - 終了日: End date for the participant. Use "要確認" if not provided.
+    - 勤務地: Work location. Use "要確認" if not provided.
+    - 案件概要: Provide a comprehensive project description (minimum 500 words) using bullet points. Include:
+        1. All information from other sections.
+        2. Project details (e.g., age restrictions, number of interviews, business flow).
+        3. Monthly expected work hours / FTE.
+        4. Any relevant remarks or additional information.
+        5. Ensure all pertinent information is captured in a clear, organized manner.
+        6. **IMPORTANT**: This field must always be enclosed in double quotes (") due to its length and potential for commas and line breaks.
+    - 必須要件: Required experience, skills, competence, product, programming language, age, etc. Use "要確認" if not provided.
+    - 歓迎要件: Preferred experience and skills. Use "記載なし" if not provided.
+    - 言語力: Required or preferred language skills and level. Use "記載なし" if not provided.
+    - メインポジション: Main role (e.g., Leader, PMO, Developer). If not documented, use speculation based on the requirements. If it is speculative, please mark it as such.
+    - 商流: Specify the tier of the subcontract (e.g., 1次請け, 2次請け)
 
     [Rest of your existing descriptions]
 
